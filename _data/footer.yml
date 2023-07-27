@@ -1,0 +1,20 @@
+left_links:
+  #- name: Blog
+  #  link: /blog/
+  - name: Terms and Conditions
+    link: /terms/
+  - name: Privacy Policy
+    link: /privacy/
+right_links:
+  - name:
+    link: https://twitter.com/chronicbite
+    social_icon: Twitter
+    new_window: true
+  - name:
+    link: https://youtube.com/@chronicbite
+    social_icon: YouTube
+    new_window: true
+  - name:
+    link: mailto:chronicbite@gmail.com
+    social_icon: Email
+    new_window: true

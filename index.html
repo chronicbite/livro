@@ -1,0 +1,92 @@
+---
+title: Home
+description: The latest app to help you find new friends with common interests.
+image: images/WebsiteHeroBackground.png
+---
+
+<style>
+	@media all {
+	 .desktop {
+	 display: block;
+	 }
+	 .mobile {
+	 display: none;
+	 }
+	}
+	@media all and (max-width: 565px){
+	 .desktop {
+	 display: none;
+	 }
+	 .mobile {
+	 display: block;
+	 }
+	}
+</style>
+
+<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+	<div class="inner-hero text-container" style="max-width: 900px;">
+		<div class="hero-text-container" style="width: 100%;">
+			<div style="position:relative; padding-bottom:56.25%;">
+				<iframe
+				  	style="width:100%; height:100%; position:absolute; left:0px; top:0px;"
+					frameborder="0" 
+					width="100%" 
+					height="100%" 
+					src="https://www.youtube.com/embed/DQvCu6ZNHDA?rel=0&modestbranding=1&showinfo=0"
+				>
+				</iframe>
+			</div>
+			<h1 class="editable desktop" style="margin: 20px 0px;"> 
+				Your own personal virtual library
+			</h1>
+			<h1 class="editable mobile" style="margin: 20px 0px;"> 
+				Your virtual library
+			</h1>
+			<p class="subtext editable">
+				Livro is an XR Reader App that allows you to get fully immersed in your favourite books, comics and manga, anywhere you go.		
+			</p>
+			<div class="cta button alt" style="text-align: right; "><a href="#" style="box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2); font-size: 1.2em;">
+				Get App</a>
+			</div>
+		</div>
+	</div>
+	<div class="learn-more"><a href="#learn-more">Learn more <span class="arrow">&#x25BC;</span></a></div>
+</section>
+
+<div class="content">
+	<section class="info" id="learn-more">
+		<div class="container flex">
+			<div class="text">
+				<h2 class="editable">Introduce yourself</h2>
+				<p class="editable">Making news friends in the adult world is hard. Frisco is the perfect filter matching you the most interesting people in your area.</p>
+			</div>
+			<div class="image">
+				<img class="editable" src="images/WebsiteHeroBackground.png" alt="Screenshot" />
+			</div>
+		</div>
+	</section>
+
+	<section class="info">
+		<div class="container flex">
+			<div class="text">
+				<h2 class="editable">Pick your interests</h2>
+				<p class="editable">The more you tell Frisco the better it gets to know you. Frisco matches you with people who share similar interests with you.</p>
+			</div>
+			<div class="image">
+				<img class="editable" src="http://placehold.it/650x1300" alt="Screenshot" />
+			</div>
+		</div>
+	</section>
+
+	<section class="info">
+		<div class="container flex">
+			<div class="text">
+				<h2 class="editable">Swipe and go</h2>
+				<p class="editable">Frisco shows you cards with people who might be a good match for friendship. Swipe left to move to the next card or right to start talking.</p>
+			</div>
+			<div class="image">
+				<img class="editable" src="http://placehold.it/650x1300" alt="Screenshot" />
+			</div>
+		</div>
+	</section>
+</div>
